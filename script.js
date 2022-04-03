@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 function isNum(number) {
     return !isNaN(parseFloat(number)) && isFinite(number);
 }
@@ -22,6 +20,7 @@ function startGame(randomNumber) {
             alert("Введи число!");
         }
     };
+
 
 }
 startGame()();
